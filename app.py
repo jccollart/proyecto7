@@ -39,8 +39,6 @@ if scatt_button:
         )
     )
 
-    st.plotly_chart(fig, use_container_width=True)
-
     fig.update_layout(
         title="Scatter Plot: Odometer vs Price",
         xaxis_title="Odometer",
